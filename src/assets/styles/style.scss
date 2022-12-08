@@ -10,6 +10,7 @@
 @import './basic/layout';
 
 // CMPS
-@import './cmps/shared/header.scss';
+@import './cmps/shared/header';
 @import './cmps/home/hero';
-@import './cmps/icons/search'
+@import './cmps/icons/search';
+@import './cmps/home/featured-festival'
