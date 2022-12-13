@@ -27,12 +27,15 @@
         minmax($layoutPadding, 1fr) minmax(auto, $max) minmax($layoutPadding, 1fr);
 }
 
-@mixin button($padding-height: 10px, $padding-width: 30px, $background-color: $pri-color, $text-clr: $app-clr, $hover-bg-clr: $faded-pri-clr) {
+@mixin button($padding-height: 14px, $padding-width: 30px, $background-color: $button-color, $text-clr: $button-text-color, $hover-bg-clr: $button-hover-color, $font-size: 1rem) {
     background-color: $background-color;
     padding: rem($padding-height) rem($padding-width);
     background-color: $background-color;
     color: $text-clr;
     border: none;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: $font-size;
 
     &:hover,
     &:active {

@@ -1,22 +1,56 @@
 .hero {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    height: 550px;
+    height: rem(540px);
     width: 100%;
 
-    h3 {
-        font-size: rem(35px);
-        flex-grow: 1;
-        display: block;
-        line-height: 50px;
+    .hero-text {
+        width: rem(500px);
 
-        span {
+        h3 {
+            font-size: rem(42px);
+            flex-grow: 1;
             display: block;
+            line-height: rem(45px);
+            overflow-x: visible;
+            width: 120%;
+            margin-bottom: rem(20px);
+
+            span {
+                display: block;
+            }
         }
+
+        p {
+            font-size: rem(18px);
+            font-weight: 100;
+        }
+
+        button {
+            @include button;
+            margin-top: rem(50px);
+        }
+
+
     }
 
-    img {
-        width: 500px;
+    .img-wrapper {
+        position: relative;
+        width: rem(815px);
+        height: 100%;
+        overflow: visible;
+
+
+        img {
+            position: absolute;
+            // right: -50%;
+            // transform: scale(0.8);
+            z-index: -10;
+            width: 130%;
+            height: 100%;
+            // left: 15px;
+            object-fit: cover;
+        }
     }
 }
