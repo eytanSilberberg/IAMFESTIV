@@ -22,7 +22,7 @@ export const Hero = () => {
             }
             setImg(imgLinks[currNum])
 
-        }, 1500)
+        }, 3000)
 
     }, [])
 
