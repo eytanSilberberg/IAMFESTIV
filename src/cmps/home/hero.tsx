@@ -11,7 +11,6 @@ export const Hero = () => {
         // setCover(true)
         setInterval(() => {
             let currNum = currImgNumRef.current
-            console.log(currNum);
             if (currNum + 1 === 3) {
                 currImgNumRef.current = 0
                 currNum = 0

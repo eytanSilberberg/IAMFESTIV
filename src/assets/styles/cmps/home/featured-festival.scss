@@ -2,11 +2,20 @@
   .nav-wrapper {
     color: rgb(105, 113, 128);
     box-shadow: rgb(29 33 41 / 44%) 1px 20px 20px -11px;
-
+    padding: 30px 0px 25px;
+    align-items: center;
+    
+    
+    
     nav {
       display: flex;
       height: 100%;
       align-items: center;
+      
     }
+  }
+  a{
+    
+    margin-right: 30px;
   }
 }
