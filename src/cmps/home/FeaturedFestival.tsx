@@ -1,4 +1,4 @@
-
+import { WhatsHot } from "./featured-festival/whats-hot";
 
 const links = [
     { title: 'whats-hot', text: 'What\'s Hot' },
@@ -17,13 +17,15 @@ export const FeaturedFestival = () => {
 
             <div className='nav-wrapper full main-layout'>
                 <nav>
-                    {links.map((link,idx) => {
+                    {links.map((link, idx) => {
                         return <a key={idx} href={link.title}>{link.text}</a>
                     })}
                 </nav>
             </div>
             <div className="whats-hot">
-                <WhatHot/>
+                <div>
+                    <WhatsHot />
+                </div>
             </div>
         </section>
 
