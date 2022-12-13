@@ -22,10 +22,8 @@ export const FeaturedFestival = () => {
                     })}
                 </nav>
             </div>
-            <div className="whats-hot">
-                <div>
+            <div className="whats-hot full">
                     <WhatsHot />
-                </div>
             </div>
         </section>
 
