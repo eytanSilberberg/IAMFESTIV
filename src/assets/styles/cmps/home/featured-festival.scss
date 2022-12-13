@@ -15,7 +15,28 @@
     }
   }
   a{
-    
     margin-right: 30px;
   }
+  .whats-hot{
+    background-color:#f2f3f5 ;
+    height: 200px;
+    position: relative;
+  }
+  .whats-hot::before{
+    position: absolute;
+    transform: translateY(100%);
+    display: block;
+    content: "";
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: #f2f3f5;
+    z-index: -1;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 0px);
+    p{
+      font-size: 16px;
+    }
+    
+  
+}
 }
