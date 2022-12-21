@@ -1,0 +1,15 @@
+.festival-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(26px);
+
+    .festival-preview {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: rem(228px);
+            object-fit: cover;
+        }
+    }
+}
