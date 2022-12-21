@@ -19,9 +19,53 @@
   }
   .whats-hot{
     background-color:#f2f3f5 ;
-    height: 200px;
+    height: rem(200px);
     position: relative;
-  }
+    h3{
+      margin-top: rem(100px);
+      font-size: rem(30px);
+      color: rgb(29, 33, 41);
+    }
+    p{
+      font-size: rem(16px);
+      font-weight: 200;
+    }
+
+    ul{
+      display: flex;
+      gap: rem(26px);
+      // height: ;
+    }
+    li{
+      width: rem(547px);
+
+      .img-wrapper{
+        position: relative;
+        width: 100%;
+        .largeImg{
+          width: 100%;
+          height: rem(350px);
+          border-radius: 6px;
+          object-fit: cover;
+        }
+        .miniImg{
+          position: absolute;
+          right:rem(10px);
+          top: rem(10px);
+          width: rem(60px);
+          height: rem(50px);
+        }
+        h4{
+          margin-top: rem(18px);
+          font-size: rem(20px);
+        }
+        p{
+          font-size: rem(14px);
+          line-height: rem(18px);
+        }
+      }
+    }
+    }
   .whats-hot::before{
     position: absolute;
     transform: translateY(100%);
