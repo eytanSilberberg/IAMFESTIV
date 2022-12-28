@@ -18,9 +18,9 @@
     margin-right: 30px;
   }
   .whats-hot{
-    background-color:#f2f3f5 ;
     height: rem(200px);
     position: relative;
+    background-color:#f2f3f5 ;
     h3{
       margin-top: rem(100px);
       font-size: rem(30px);
@@ -34,7 +34,6 @@
     ul{
       display: flex;
       gap: rem(26px);
-      // height: ;
     }
     li{
       width: rem(547px);
@@ -80,7 +79,9 @@
     p{
       font-size: 16px;
     }
-    
+.for-you{
+  background-color: black;
+}
   
 }
 }
