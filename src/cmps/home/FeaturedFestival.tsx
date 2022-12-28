@@ -23,11 +23,11 @@ export const FeaturedFestival = () => {
                     })}
                 </nav>
             </div>
-            <div className="full">
-                    <WhatsHot />
-            </div>
-            <div>
-                <ForYou />
+            <div className="main-layout full featured-festivals-wrapper">
+                <WhatsHot />
+                <div>
+                    <ForYou />
+                </div>
             </div>
         </section>
 
